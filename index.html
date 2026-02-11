@@ -32,7 +32,8 @@
                alert("La edad no puede ser menor de 16")
                return false;
             }
-             if (constraseAValidar<6){
+            let constraseAValidar = document.getElementById("contrase").value;
+            if (constraseAValidar.length<6){
                alert("La contraseña no puede ser menor que 6")
                return false;
             }
